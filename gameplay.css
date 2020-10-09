@@ -1,0 +1,65 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");*{
+    margin:0;
+    padding:0;
+}
+
+body{
+background: #8FAB6D;
+font-size: 2em;
+font-weight: 500;
+color: white;
+}
+#GAMEPLAY div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: top left bottom right */
+    margin:10px 0;
+    width: 100%;
+}
+
+#GAMEPLAY div article{
+    font-size: large;
+    background: #8FAB6D;
+    color:black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.ASTONVILLA{
+    width: 8vw;
+    height: 8vw;
+}
+.MANCHESTERCITY{
+    width: 8vw;
+    height: 8vw;
+}
+h1{
+    font-family: cursive,sans-serif,'Times New Roman', Times, serif;
+    text-align: center;
+    color: azure;
+}
+
+    
+    .button {
+        width: 350px;
+       height: 40px;
+       font-family: cursive,'Times New Roman', Times, serif;
+       background-color: bisque;
+       border-color: bisque;
+       padding: 1px;
+       border-radius: 20px;
+       font-size: medium;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       cursor: pointer;
+      }    
+      

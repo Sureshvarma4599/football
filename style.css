@@ -1,4 +1,5 @@
-*{
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");*{
     margin:0;
     padding:0;
 }
@@ -10,3 +11,255 @@ font-weight: 500;
 color: white;
 }
 
+h4{
+    font-weight: 60;
+}
+
+
+
+.logo-text{
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #f05136;
+}
+.logo-img{
+    height: 0.9sem;
+    width: 1.5em;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+.nav-link{
+    font-size: 0.6em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #f05136;
+}
+#TEAMS{
+    background: #8FAB6D  ;
+    color:white;
+    height: 450px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 8vw;
+    height: 8vw;
+}
+header div p{
+    font-size: 0.8em;
+    font-weight: 50;
+}
+
+
+#GAMEPLAY{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#TEAMS div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: top left bottom right */
+    margin:10px 0;
+    width: 100%;
+}
+
+#TEAMS div article{
+    font-size: small;
+    background: #8FAB6D;
+    color:black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container-fix{
+    
+    width: 94%;
+    height: 90vh;
+    margin: 1%;
+    align-items: center;
+    /* background-color: lightgray; */
+    padding: 1%;
+
+}
+ .qualifier{
+     background-color:#f8efd4;
+    width: 25%;
+    height: 70vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(247, 245, 245);
+    border-radius: 5px;
+
+}
+h2{font-family:cursive, 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    color: blueviolet;
+}
+h5{
+    font-family:cursive, 'Times New Roman', Times, serif;
+    font-size: 0.6em;
+    color: blueviolet;
+
+}
+.qualifier1{
+    background-color:  #f8efd4;
+   width: 25%;
+   height: 70vh;
+   padding: 1%;
+   margin: 1%;
+   border: 2px solid rgb(247, 245, 245);
+   border-radius: 5px;
+
+}
+.semiFinal{
+    background-color: #f8efd4;
+    width: 25%;
+    height: 45vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 5px;
+}
+
+.final{
+    background-color:  #f8efd4;
+    width: 25%;
+    height: 20vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 250, 249);
+    border-radius: 5px;
+}
+.set{
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+
+}
+.set2{
+    
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+
+}
+.set3{
+    
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+
+}
+
+
+
+.card1{
+    
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    
+    background-color: #f8efd4;
+}
+
+h3{ font-size: small;
+    margin: 5vh auto auto auto;
+    border: 1px solid orangered;
+    border-radius: 70px;
+    background-color: orangered;
+    color: white;
+    transform: scale(2.00);
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+#result{
+  border:none;
+  background-color: rgb(7, 131, 13);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.ARSENAL{
+    width: 120%;
+    margin-left: 9%;
+}
+.ASTONVILLA{
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 25%;
+}
+.BURNLEY{margin-top: -1%;
+    width: 120%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.CHELSEA{
+    margin-top: 14%;
+    width: 50%;
+    margin-left: 20%;
+}
+.EVERTON{
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 20%;
+}
+.FULHAM{
+    margin-top: 10%;
+    width: 45%;
+    margin-left: 20%;
+}
+.LEEDSUNITED{
+    width: 20%;
+    margin: 2vh auto auto 20%;
+}
+.LIVERPOOL{
+    width: 20%;
+
+}
+.MANCHESTERCITY{
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
