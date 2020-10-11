@@ -12,11 +12,13 @@
     <br><br><br>
     <section id="GAMEPLAY">
         <div>
-            <div>
+            
+          <div>
+              <div>
                 <article>
                     <div>
                         <img class=" MANCHESTERCITY"src="./assets/MANCHESTERCITY.png" alt="MANCHESTERCITY">
-                        <span></span>
+                        <span class="team-name" id="team1"></span>
                         <div>
                             <span>-</span>
                             <span>-</span>
@@ -29,7 +31,7 @@
                 <article>
                    <div>
                     <img  class="ASTONVILLA" src="./assets/ASTONVILLA.png" alt="ASTONVILLA">
-                    <span></span>
+                    <span class="team-name" id="team2"></span>
                     <div>
                         <span>-</span>
                         <span>-</span>
@@ -40,11 +42,17 @@
                 </div>
                 </article>
                
+            <div class="row">
+                <button id="shoot-button" onclick="handleShootButttonClick()">shoot</button>
             </div>
-            <div>
-                <button class="button" type="submit">strike</button>
-            </div>
+            <div class="row" id="result" hidden></div>
+              </div>
+          </div>    
+            
+                
+        
         </div>
        </section>
+       <script src="./gameplay.js"></script>
 </body>
 </html>

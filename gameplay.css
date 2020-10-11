@@ -50,7 +50,7 @@ h1{
 }
 
     
-    .button {
+    #shoot-button {
         width: 350px;
        height: 40px;
        font-family: cursive,'Times New Roman', Times, serif;
