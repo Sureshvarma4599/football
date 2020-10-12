@@ -9,7 +9,7 @@
 <body>
 
     <h1>Welcome to Gameplay</h1>
-    <br><br><br>
+    
     <section id="GAMEPLAY">
         <div>
             
@@ -26,15 +26,23 @@
                             <span class="col" >-</span>
                             <span class="col">-</span>
                         </div> 
-                        </div>
+                    </div>  
                 </article>
-            </div>
-              <div>
+             </div>
+        
+             <div class="col">
+                            <div class="row score">
+                                <span id="team-1-score"></span>
+                                <span>-</span>
+                                <span id="team-2-score"></span>
+                            </div>
+              </div>
+             <div>
                 <article>
-                    <div class="row-score" id="team-2-points">
+                    <div>
                      <img  class="ASTONVILLA" src="./assets/ASTONVILLA.png" alt="ASTONVILLA">
                      <span class="name" id="team-2-name"></span>
-                     <div>
+                     <div class="row-score"  id="team-2-points">
                          <span class="col">-</span>
                          <span class="col">-</span>
                          <span class="col">-</span>
@@ -42,16 +50,19 @@
                          <span class="col">-</span>
                          
                      </div>
-                 </div>
+                   </div>
                  </article>
               </div>
-               
-            <div class="row">
-                <button id="shoot-button" onclick="handleShootButttonClick()">shoot</button>
-            </div>
-            <div class="row" id="result" hidden></div>
+              
+              <div>
+                <div class="row">
+                  <button id="shoot-button" onclick="handleStrikeButtonClick()"></button>
               </div>
-          </div>    
+              <div class="row" id="result" hidden></div>
+                
+              </div>
+            
+              
             
                 
         
