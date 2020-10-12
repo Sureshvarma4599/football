@@ -79,7 +79,7 @@ var handleShootButtonClick = () =>{
    
    var calculateScore = (points) =>{
    console.log("Calculate score method");
-   return runs.map(num =>{
+   return points.map(num =>{
     
     return num =='0'? 0: num;
     
